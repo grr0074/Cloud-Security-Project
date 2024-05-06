@@ -1,3 +1,4 @@
+```markdown
 # Disk I/O Monitor
 
 This Python script monitors disk I/O activity on a system and logs potential anomalies that may indicate checkpointing activity.
@@ -21,8 +22,5 @@ If a disk's read or write activity exceeds the defined thresholds, the script pr
 
 The monitoring loop runs indefinitely, checking disk I/O every 10 seconds. You can adjust the sleep time or baselines according to your system's requirements.
 
-## Customization
 
-- Adjust the `baseline_read_bytes` and `baseline_write_bytes` values to suit your system's normal disk I/O activity.
-- Modify the warning message or add additional logging/notification mechanisms as per your requirements.
-- Implement more sophisticated anomaly detection algorithms based on your specific use case.
+```
