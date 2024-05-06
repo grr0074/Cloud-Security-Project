@@ -45,10 +45,4 @@ This Python script utilizes the `psutil` library to monitor your system's CPU us
 * **CPU Usage Threshold:** The `threshold` variable in the script is set to 80%. Adjust this value based on your system's typical CPU usage patterns and workload. A higher threshold might be appropriate for machines handling heavy computations.
 * **Monitoring Interval:** The `time.sleep(5)` line determines how often the CPU usage is checked. You can adjust this value (in seconds) to suit your needs. A shorter interval provides more frequent updates but might incur higher overhead.
 
-**Additional Considerations:**
-
-* This script provides a basic monitoring mechanism. You may want to integrate it into a larger system monitoring and logging framework for more comprehensive tracking.
-* The script logs warnings to the console. Explore implementing features like email notifications or storing logs in files for further analysis.
-* Be cautious about setting the threshold too low, as normal system operations can sometimes trigger temporary CPU spikes.
-
 By effectively monitoring CPU usage, you can identify potential performance bottlenecks, resource-intensive processes, and potential checkpointing activity in systems that utilize such mechanisms.
