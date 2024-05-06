@@ -37,7 +37,7 @@ def create_resource_intensive_snapshot(prefix="snapshot", data_size=1024):
 
   return filename
 
-number_of_snapshots = 20
+number_of_snapshots = 20000
 
 # Create dummy files with unique names and random data
 for i in range(number_of_snapshots):
